@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/estilo_form.css">
+    <title>Webservice</title>
+</head>
+<body>
+    <form action="">
+        <label for="">Nome:</label>
+        <input type="text" id="nome" placeholder="Informe o seu nome" required>
+        <label for="">CPF:</label>
+        <input type="number" id="cpf" placeholder="Informe o seu CPF" required>
+        <label for="">Telefone:</label>
+        <input type="number" id="tel" placeholder="Informe o seu telefone">
+        <label for="">Celular:</label>
+        <input type="number" id="cel" placeholder="Informe o seu celular" required>
+        <label for="">Endereço:</label>
+        <input type="text" id="endereco" placeholder="Informe o seu endereço" required>
+        <label for="">CEP:
+            <input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+            onblur="pesquisacep(this.value);" /></label><br />
+        <label for="">Rua:</label>
+        <input type="text" id="rua" placeholder="Informe a sua rua" required>
+        <label for="">Bairro:</label>
+        <input type="text" id="bairro" placeholder="Informe o seu bairro" required>
+        <label for="">Cidade:</label>
+        <input type="text" id="cidade" placeholder="Informe a sua cidade" required>
+        <label for="">Estado:</label>
+        <input type="text" id="uf" placeholder="Informe o seu estado" required>
+        <label for="">IBGE:</label>
+        <input type="text" id="ibge" placeholder="Informe o seu IBGE" required>
+        <button>Cadastrar</button>
+    </form>
+
+
+    <script src="JS/form1.js"></script>
+</body>
+</html>
